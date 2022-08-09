@@ -4,6 +4,8 @@ FROM node:10-alpine
 
 #WORKDIR /home/node/app
 
+WORKDIR /app
+
 COPY package*.json ./
 
 #USER node
